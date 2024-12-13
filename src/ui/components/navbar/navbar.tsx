@@ -3,6 +3,7 @@ import { Logo } from "@/ui/design/logo/logo";
 import { Typography } from "@/ui/design/typography/typography";
 import Link from "next/link";
 import { Container } from "../container/container";
+import { ActiveLink } from "./activeLink";
 
 type Props = object;
 
@@ -26,9 +27,9 @@ export const Navbar = ({ }: Props) => {
                 <div>
                     <div className="flex items-center gap-7">
                         <Typography variant="caption3" component="div" className="flex items-center gap-7">
-                            <Link href="/designSystem">Design-system</Link>
-                            <Link href="#">Lien</Link>
-                            <Link href="#">Lien</Link>
+                            <ActiveLink href="/designSystem">Design-system</ActiveLink>
+                            <ActiveLink href="#">Lien</ActiveLink>
+                            <ActiveLink href="#">Lien</ActiveLink>
                         </Typography>
 
                         <div className="flex items-center gap-2">
