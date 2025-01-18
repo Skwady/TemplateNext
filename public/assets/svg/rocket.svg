@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Corps de la fusée -->
+  <path d="M100 10 L80 80 A20 20 0 0 1 120 80 L100 10" fill="#ff5252" />
+  
+  <!-- Fenêtre de la fusée -->
+  <circle cx="100" cy="60" r="10" fill="#fff" stroke="#000" stroke-width="2" />
+  
+  <!-- Aile gauche -->
+  <path d="M80 80 L50 120 L80 120 Z" fill="#ff9000" />
+  
+  <!-- Aile droite -->
+  <path d="M120 80 L150 120 L120 120 Z" fill="#ff9000" />
+  
+  <!-- Feu de propulsion -->
+  <path d="M80 120 L100 180 L120 120 Z" fill="#ff0" />
+  <path d="M90 130 L100 160 L110 130 Z" fill="#ff5252" />
+</svg>
